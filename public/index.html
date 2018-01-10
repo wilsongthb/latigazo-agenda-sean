@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AGENDA</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        
+        <div class="container panel panel-default">
+            <div class="panel-body">
+                <h1 class="text-center">AGENDA</h1>
+                <form action="guardar" method="post">
+                    <p>
+                        <label for="">nombre</label>
+                        <input type="text" name="names" required>
+                    </p>
+                    <p>
+                        <label for="">apellido paterno</label>
+                        <input type="text" name="father_name" required>
+                    </p>
+                    <p>
+                        <label for="">apellido materno</label>
+                        <input type="text" name="mother_name" required>
+                    </p>
+                    <p>
+                        <label for="">cargo</label>
+                        <input type="text" name="charge" required>
+                    </p>
+                    <p>
+                        <label for="">correo</label>
+                        <input type="text" name="email" required>
+                    </p>
+                    <p>
+                        <label for="">oficina</label>
+                        <input type="text" name="office" required>
+                    </p>
+                    <p>
+                        <label for="">telefono</label>
+                        <input type="text" name="phone" required>
+                    </p>
+                    <p>
+                        <label for="">telefono celular</label>
+                        <input type="text" name="cell_phone" required>
+                    </p>
+                    <p>
+                        <button type="submit">Guardar</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+        
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <script src="angular/angular.js"></script>
+    </body>
+</html>
